@@ -36,3 +36,15 @@ Esta API sirve datos de forma desacoplada al cliente desarrollado en Angular.
 1. **Clonar el proyecto:**
    ```bash
    git clone https://github.com/CesarMHD/devcoreforge-api.git
+2. **Instalar dependencias de PHP:**
+   ```bash
+   composer install
+3. **Configurar el entorno:**
+   ```bash
+   cp .env.example .env
+4. **Generar clave de aplicación:**
+   ```bash
+   php artisan key:generate
+4. **Ejecutar migraciones:**
+   ```bash
+   php artisan migrate
